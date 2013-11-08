@@ -1,0 +1,87 @@
+html {
+	margin:0;
+	padding:0;
+	}
+body {
+	margin:0;
+	background:url(img/fundo_rept.png);
+	background-repeat:repeat-x;
+	}
+#div_topo{
+	height:180px;
+	width:100%;
+	background:url("img/faixa_topo.png");
+	}
+#logo {
+	position:absolute;
+	top:7px;
+	left:172px;
+	cursor:pointer;
+	}
+#div_menu{
+	height:33px;
+	width:100%;
+	background:url(img/fundo_menu.png);
+	}
+#div_cont{
+	height:500px;
+	width:700px;
+	background:url(img/fundo_cont.png);
+	margin:0 auto;
+	padding:0;
+	}
+#div_text{
+	width:300px;
+	height:225px;
+	margin:0;
+	font-size:15pt;
+	margin-left:40px;
+	text-align:justify;
+	}
+#div_img{
+	width:350px;
+	height:450px;
+	background:url(img/fundo_divimg.png);
+	float:right;
+	background-repeat:no-repeat;
+	}
+#menu_lista{
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:191px;
+	left:595px;
+	list-style:none;
+	font-family:"calibri";
+	font-size:15pt;
+	text-decoration:none;
+	text-align:center;
+	font-family:calibri;
+	font-size:11pt;
+	}
+#menu_lista li{
+	float:left;
+	text-decoration:none;
+	text-align:center;
+	height:20px;
+	width:100px;
+	border-radius:10px;
+	}
+a{
+	color:black;
+	}
+#menu_lista li:hover{
+	background:gold;
+	}
+#menu_lista li:active{
+	background:#90D2DA;
+	}
+p{
+	text-align:center;
+	margin:0;
+	}
+#saiba_mais{
+	width:55px;
+	height:25px;
+	margin-left:40px;
+	}
