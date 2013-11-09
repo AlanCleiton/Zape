@@ -34,9 +34,16 @@ body {
 	width:300px;
 	height:225px;
 	margin:0;
-	font-size:25pt;
+	font-size:15pt;
 	margin-left:40px;
 	text-align:justify;
+	}
+#div_img{
+	width:350px;
+	height:450px;
+	background:url(img/fundo_divimg.png);
+	float:right;
+	background-repeat:no-repeat;
 	}
 #menu_lista{
 	padding:0;
@@ -64,7 +71,7 @@ a{
 	color:black;
 	}
 #menu_lista li:hover{
-	background:silver;
+	background:gold;
 	}
 #menu_lista li:active{
 	background:#90D2DA;
@@ -72,4 +79,9 @@ a{
 p{
 	text-align:center;
 	margin:0;
+	}
+#saiba_mais{
+	width:55px;
+	height:25px;
+	margin-left:40px;
 	}
