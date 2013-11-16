@@ -2,15 +2,17 @@
 
  <html lang="pt-BR">
 	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
 		<meta name="viewpoirt" content="width:device-width">
-		<title>..:Zape3 Design e Soluções:..</title>
+		<title>..:Contatos:..</title>
 		<link rel="stylesheet" type="text/css" href="css/estilo.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="css/estilo_contatos.css" media="all" />
 		<script type="text/javascript" src="js\jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" src="js\jquery.cycle.all.js"></script>
 		<script type="text/javascript" src="js\script.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
 
 	</head>
 	<body>
@@ -26,7 +28,21 @@
 			</ul>
 		</div>
 		<div id="div_cont">
+			<div class="loading">
+				<p><img src="loading.gif" alt="&nbsp;"/>&nbsp;<strong>Enviando</strong></p>
 			</div>
+		<div id="resposta"></div>
+		<form action="envia.php" method="post" id="form-contato">
+			<fieldset>
+				<label for="nome">Nome:</label>
+				<input type="text" class="width230" name="nome" id="nome" />
+				<label for="email">E-mail:</label>
+				<input type="text" class="width230" name="nome" id="email" />
+				<label for="observações">Observações:</label>
+				<textarea rows="5" cols="3" class="width230" name="msg" id="msg"></textarea><br />
+				<input type="submit" value="Enviar" name="enviar" id="enviar_contato" />
+			</fieldset>
+		</form>	
 		</div>
 	</body>
  
