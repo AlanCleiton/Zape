@@ -23,28 +23,6 @@ body {
 	width:100%;
 	background:url(img/fundo_menu.png);
 	}
-#div_cont{
-	height:500px;
-	width:700px;
-	background:url(img/fundo_cont.png);
-	margin:0 auto;
-	padding:0;
-	}
-#div_text{
-	width:300px;
-	height:225px;
-	margin:0;
-	font-size:15pt;
-	margin-left:40px;
-	text-align:justify;
-	}
-#div_img{
-	width:350px;
-	height:450px;
-	background:url(img/fundo_divimg.png);
-	float:right;
-	background-repeat:no-repeat;
-	}
 #menu_lista{
 	padding:0;
 	position:absolute;
@@ -74,12 +52,34 @@ a{
 #menu_lista li:active{
 	background:#90D2DA;
 	}
-p{
-	text-align:center;
-	margin:0;
+#div_cont{
+	height:500px;
+	width:700px;
+	background:url(img/fundo_cont.png);
+	margin:0 auto;
+	padding:0;
 	}
-#saiba_mais{
-	width:55px;
-	height:25px;
-	margin-left:40px;
+#pintura{
+	width:600px;
+	height:150px;
+	background:url(img/fundo_pintura.png);
+	margin-left:50px;
+	position:relative;
+	top:15px;
+	}
+#impressao{
+	width:600px;
+	height:150px;
+	background:black;
+	margin-left:50px;
+	position:relative;
+	top:30px;
+	}
+#padrao{
+	width:600px;
+	height:150px;
+	background:black;
+	margin-left:50px;
+	position:relative;
+	top:45px;
 	}
