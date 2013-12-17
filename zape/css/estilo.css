@@ -36,7 +36,6 @@ body {
 	margin:0;
 	font-size:15pt;
 	margin-left:40px;
-	text-align:justify;
 	}
 #div_img{
 	width:350px;
@@ -70,13 +69,15 @@ a{
 	}
 #menu_lista li:hover{
 	background:silver;
+	
 	}
 #menu_lista li:active{
 	background:#90D2DA;
 	}
-p{
-	text-align:center;
+#div_text p{
+	text-align:justify;
 	margin:0;
+	padding:20px;
 	}
 #saiba_mais{
 	width:55px;
