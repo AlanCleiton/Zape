@@ -10,7 +10,7 @@ body {
 #div_topo{
 	height:180px;
 	width:100%;
-	background:url("img/faixa_topo.png");
+	background:url(img/faixa_topo.png);
 	}
 #logo {
 	position:absolute;
