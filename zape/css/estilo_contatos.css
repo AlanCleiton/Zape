@@ -85,6 +85,15 @@ p{
 	height:25px;
 	margin-left:40px;
 	}
+#rodape{
+	width:100%;
+	height:200px;
+	background:url(img/faixa_fundo_rodape.jpg);
+	}
+#texto_rodape{
+	margin-left:299px;
+	margin-top:75px;
+	}
 /*----------------------RESET--------------------*/
 
 body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
