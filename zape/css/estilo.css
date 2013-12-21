@@ -39,9 +39,9 @@ body {
 	font-family:calibri;
 	}
 #div_img{
-	width:350px;
-	height:450px;
-	background:url(img/fundo_divimg.png);
+	width:302px;
+	height:345px;
+	background:url(img/img_home.png);
 	float:right;
 	background-repeat:no-repeat;
 	}
@@ -84,4 +84,13 @@ ul li:active{
 	width:55px;
 	height:25px;
 	margin-left:40px;
+	}
+#rodape{
+	width:100%;
+	height:200px;
+	background:url(img/faixa_fundo_rodape.jpg);
+	}
+#texto_rodape{
+	margin-left:299px;
+	margin-top:75px;
 	}
