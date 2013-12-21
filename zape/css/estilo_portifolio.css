@@ -4,7 +4,7 @@ html {
 	}
 body {
 	margin:0;
-	background:url(img/fundo_rept.png);
+	background:url(img/faixa_fundo_rept.png);
 	background-repeat:repeat-x;
 	}
 #div_topo{
