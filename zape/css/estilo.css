@@ -12,12 +12,20 @@ body{
 	width:100%;
 	background:url(img/faixa_topo.png);
 	}
-.logo{
+figure{
+	margin:0;
+	}
+#logo{
 	position:absolute;
 	top:7px;
 	left:172px;
 	cursor:pointer;
 	margin:0;
+	}
+figure#iso img{
+	float:right;
+	margin-right:30px;
+	margin-top:93px;
 	}
 #menu{
 	height:33px;
@@ -86,12 +94,12 @@ ul li:active{
 	height:25px;
 	margin-left:30px;
 	}
-#rodape{
+footer#rodape{
 	width:100%;
 	height:200px;
 	background:url(img/faixa_fundo_rodape.jpg);
 	}
-#texto_rodape{
+footer#rodape img{
 	margin-left:299px;
 	margin-top:75px;
 	}
