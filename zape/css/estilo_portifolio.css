@@ -12,11 +12,19 @@ body {
 	width:100%;
 	background:url(img/faixa_topo.png);
 	}
+figure{
+	margin:0;
+	}
 #logo {
 	position:absolute;
 	top:7px;
 	left:172px;
 	cursor:pointer;
+	}
+figure#iso img{
+	float:right;
+	margin-right:30px;
+	margin-top:93px;
 	}
 #div_menu{
 	height:33px;
@@ -58,30 +66,6 @@ a{
 	background:url(img/fundo_cont.png);
 	margin:0 auto;
 	padding:0;
-	}
-#pintura{
-	width:600px;
-	height:150px;
-	background:url(img/fundo_pintura.png);
-	margin-left:50px;
-	position:relative;
-	top:15px;
-	}
-#impressao{
-	width:600px;
-	height:150px;
-	background:black;
-	margin-left:50px;
-	position:relative;
-	top:30px;
-	}
-#padrao{
-	width:600px;
-	height:150px;
-	background:black;
-	margin-left:50px;
-	position:relative;
-	top:45px;
 	}
 #rodape{
 	width:100%;

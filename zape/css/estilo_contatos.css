@@ -1,8 +1,8 @@
-html {
+html{
 	margin:0;
 	padding:0;
 	}
-body {
+body{
 	margin:0;
 	background:url(img/faixa_fundo_rept.png);
 	background-repeat:repeat-x;
@@ -12,11 +12,19 @@ body {
 	width:100%;
 	background:url(img/faixa_topo.png);
 	}
-#logo {
+figure{
+	margin:0;
+}
+#logo{
 	position:absolute;
 	top:7px;
 	left:172px;
 	cursor:pointer;
+	}
+figure#iso img{
+	float:right;
+	margin-right:30px;
+	margin-top:93px;
 	}
 #div_menu{
 	height:33px;
