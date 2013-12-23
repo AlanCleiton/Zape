@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 html{
 	margin:0;
 	padding:0;
@@ -7,31 +9,76 @@ body{
 	background:url(img/faixa_fundo_rept.png);
 	background-repeat:repeat-x;
 	}
-#div_topo{
+header#topo{
 	height:180px;
 	width:100%;
 	background:url(img/faixa_topo.png);
 	}
 figure{
 	margin:0;
-}
+	}
 #logo{
 	position:absolute;
 	top:7px;
 	left:172px;
 	cursor:pointer;
+	margin:0;
 	}
 figure#iso img{
 	float:right;
 	margin-right:30px;
 	margin-top:93px;
 	}
-#div_menu{
-	height:33px;
-	width:100%;
-	background:url(img/fundo_menu.png);
+nav{
+    height: 33px;
+    margin: 0;
+    background-image: url("img/fundo_menu.png");
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	margin-left: 627px;
+	height: 33px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}	
+nav#menu  a li{
+	  display: inline-block;
+    list-style: none;
+    margin-top: 9px;
+    padding: 3px 7px 3px 7px;
+    margin-lef: 7px;
+    font-size: 11pt;
+    font-family: calibri;
+    border-radius: 10pt;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s:
+    -o-transition: background-color 1s;
+    transition: background-color 1s;
+}
+nav#menu a{
+	color:black;
 	}
-#div_cont{
+nav#menu a:hover{
+    color: blue;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+
+}
+nav#menu li:hover{
+	background:silver;
+	
+	}
+nav#menu li:active{
+	background:#90D2DA;
+	}
+section{
 	height:500px;
 	width:700px;
 	background:url(img/fundo_cont.png);
@@ -42,96 +89,34 @@ figure#iso img{
 	width:300px;
 	height:225px;
 	margin:0;
-	font-size:15pt;
-	margin-left:40px;
+	font-size:14pt;
+	margin-left:30px;
+	font-family:calibri;
+	}
+#div_text p{
 	text-align:justify;
+	margin:0;
+	padding:40px 0;
 	}
 #div_img{
-	width:350px;
-	height:450px;
-	background:url(img/fundo_divimg.png);
+	width:345px;
+	height:230px;
+	background:url(img/img_home.png);
 	float:right;
 	background-repeat:no-repeat;
 	}
-#menu_lista{
-	padding:0;
-	margin:0;
-	position:absolute;
-	top:191px;
-	left:595px;
-	list-style:none;
-	font-family:"calibri";
-	font-size:15pt;
-	text-decoration:none;
-	text-align:center;
-	font-family:calibri;
-	font-size:11pt;
-	}
-#menu_lista li{
-	float:left;
-	text-decoration:none;
-	text-align:center;
-	height:20px;
-	width:100px;
-	border-radius:10px;
-	}
-a{
-	color:black;
-	}
-#menu_lista li:hover{
-	background:silver;
-	}
-#menu_lista li:active{
-	background:#90D2DA;
-	}
-p{
-	text-align:center;
-	margin:0;
-	}
+
 #saiba_mais{
 	width:55px;
 	height:25px;
-	margin-left:40px;
+	margin-left:30px;
 	}
-#rodape{
+footer#rodape{
 	width:100%;
 	height:200px;
 	background:url(img/faixa_fundo_rodape.jpg);
 	}
-#texto_rodape{
+footer#rodape img{
 	margin-left:299px;
 	margin-top:75px;
 	}
-/*----------------------RESET--------------------*/
-
-body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
-li, dl, dt, dd, form, a, fieldset, input, th, td
-{margin: 0; padding: 0; outline: none;}
-
-body{line-height:1; font-size:62.5%; background:#fff; font-family:Arial, Helvetica, sans-serif;} /*---- 1.0 em = 10px---*/
-
-h1, h2, h3, h4, h5, h6{font-size:100%;}
-
-/*----------------------RESET--------------------*/
-
-h1{font:bold 5em Arial, Helvetica, sans-serif; text-align:center; margin:30px 0 30px 0; background:#333; color:#fff; padding:10px; letter-spacing:-0.04em; text-shadow:0px 0px 5px #eaeaea; }
-
-fieldset{border:0;}
-
-form{margin-left:200px;}
-
-input, textarea{padding:3px; margin-bottom:5px; border:1px solid #c0c0c0; -moz-border-radius:3px; -webkit-border-radius:3px;}
-
-input:focus, textarea:focus{border-color:#999;}
-
-label{display:block; font-size:1.2em; margin-top:5px;}
-
-textarea{overflow:auto; font:1.2em Arial, Helvetica, sans-serif; color:#333; line-height:1.6em;}
-
-.width230{width:230px;}
-
-.loading, #resposta{width:230px; background:#f8f8f8; border:1px solid #ccc; padding:3px; text-align:center; margin:0 0 10px 200px; display:none;}
-
-.loading img{vertical-align:middle;}
-
-	
