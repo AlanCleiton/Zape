@@ -1,3 +1,6 @@
+@charset "utf-8";
+
+
 html{
 	margin:0;
 	padding:0;
@@ -7,24 +10,67 @@ body{
 	background:url(img/faixa_fundo_rept.png);
 	background-repeat:repeat-x;
 	}
-#topo{
+header#topo{
 	height:180px;
 	width:100%;
 	background:url(img/faixa_topo.png);
 	}
-.logo{
+figure.logo{
 	position:absolute;
 	top:7px;
 	left:172px;
 	cursor:pointer;
 	margin:0;
 	}
-#menu{
+nav#menu{
 	height:33px;
 	width:100%;
 	background:url(img/fundo_menu.png);
 	}
-#div_cont{
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	margin-left: 650px;
+	height: 33px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}	
+nav#menu  a li{
+	  display: inline-block;
+    list-style: none;
+    margin-top: 9px;
+    padding: 3px 7px 3px 7px;
+    margin-lef: 7px;
+    font-size: 11pt;
+    font-family: calibri;
+    border-radius: 10pt;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s:
+    -o-transition: background-color 1s;
+    transition: background-color 1s;
+}
+nav#menu a{
+	color:black;
+	}
+nav#menu a:hover{
+    color: blue;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+
+}
+nav#menu li:hover{
+	background:silver;
+	
+	}
+nav#menu li:active{
+	background:#90D2DA;
+	}
+section{
 	height:500px;
 	width:700px;
 	background:url(img/fundo_cont.png);
@@ -51,36 +97,7 @@ body{
 	float:right;
 	background-repeat:no-repeat;
 	}
-ul{
-	padding:0;
-	position:absolute;
-	margin: 0;
-	top:191px;
-	left:595px;
-	list-style:none;
-	text-decoration:none;
-	text-align:center;
-	font-family:calibri;
-	font-size:11pt;
-	}
-ul li{
-	float:left;
-	text-decoration:none;
-	text-align:center;
-	height:20px;
-	width:100px;
-	border-radius:10px;
-	}
-a{
-	color:black;
-	}
-ul li:hover{
-	background:silver;
-	
-	}
-ul li:active{
-	background:#90D2DA;
-	}
+
 #saiba_mais{
 	width:55px;
 	height:25px;
