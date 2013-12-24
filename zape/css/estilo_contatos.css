@@ -15,16 +15,23 @@ body{
 figure{
 	margin:0;
 }
-#logo{
+figure#logo img#P{
+	margin:0;
 	position:absolute;
 	top:7px;
 	left:172px;
-	cursor:pointer;
+	}
+figure#logo img#zape{
+	margin:0;
+	position:absolute;
+	top:55px;
+	left:420px;
 	}
 figure#iso img{
 	float:right;
 	margin-right:30px;
 	margin-top:93px;
+	cursor:pointer;
 	}
 #div_menu{
 	height:33px;
