@@ -16,7 +16,6 @@ header#topo{
 	}
 figure{
 	margin:0;
-<<<<<<< HEAD
 }
 figure#logo img#P{
 	margin:0;
@@ -34,14 +33,12 @@ figure#iso img{
 	float:right;
 	margin-right:30px;
 	margin-top:93px;
-	cursor:pointer;
 	}
 nav{
     height: 33px;
     margin: 0;
     background-image: url("img/fundo_menu.png");
 }
-
 nav#menu ul{
 	list-style: none;
 	text-transform: uppercase;
@@ -91,32 +88,6 @@ section{
 	background:url(img/fundo_cont.png);
 	margin:0 auto;
 	padding:0;
-	}
-#div_text{
-	width:300px;
-	height:225px;
-	margin:0;
-	font-size:14pt;
-	margin-left:30px;
-	font-family:calibri;
-	}
-#div_text p{
-	text-align:justify;
-	margin:0;
-	padding:40px 0;
-	}
-#div_img{
-	width:345px;
-	height:230px;
-	background:url(img/img_home.png);
-	float:right;
-	background-repeat:no-repeat;
-	}
-
-#saiba_mais{
-	width:55px;
-	height:25px;
-	margin-left:30px;
 	}
 footer#rodape{
 	width:100%;

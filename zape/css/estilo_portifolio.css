@@ -1,20 +1,23 @@
-html {
+@charset "utf-8";
+
+
+html{
 	margin:0;
 	padding:0;
 	}
-body {
+body{
 	margin:0;
 	background:url(img/faixa_fundo_rept.png);
 	background-repeat:repeat-x;
 	}
-#topo{
+header#topo{
 	height:180px;
 	width:100%;
 	background:url(img/faixa_topo.png);
 	}
 figure{
 	margin:0;
-	}
+}
 figure#logo img#P{
 	margin:0;
 	position:absolute;
@@ -31,55 +34,69 @@ figure#iso img{
 	float:right;
 	margin-right:30px;
 	margin-top:93px;
-	cursor:pointer;
 	}
-#div_menu{
-	height:33px;
-	width:100%;
-	background:url(img/fundo_menu.png);
-	}
-#menu_lista{
-	padding:0;
-	position:absolute;
-	margin: 0;
-	top:191px;
-	left:595px;
-	list-style:none;
-	text-decoration:none;
-	text-align:center;
-	font-family:calibri;
-	font-size:11pt;
-	}
-#menu_lista li{
-	float:left;
-	text-decoration:none;
-	text-align:center;
-	height:20px;
-	width:100px;
-	border-radius:10px;
-	}
-a{
+nav#menu{
+    height: 33px;
+    margin: 0;
+    background-image: url(img/fundo_menu.png);
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	margin-left: 650px;
+	height: 33px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}	
+nav#menu  a li{
+	  display: inline-block;
+    list-style: none;
+    margin-top: 9px;
+    padding: 3px 7px 3px 7px;
+    margin-lef: 7px;
+    font-size: 11pt;
+    font-family: calibri;
+    border-radius: 10pt;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s:
+    -o-transition: background-color 1s;
+    transition: background-color 1s;
+}
+nav#menu a{
 	color:black;
 	}
-#menu_lista li:hover{
+nav#menu a:hover{
+    color: blue;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+
+}
+nav#menu li:hover{
 	background:silver;
+	
 	}
-#menu_lista li:active{
+nav#menu li:active{
 	background:#90D2DA;
 	}
-#div_cont{
+section{
 	height:500px;
 	width:700px;
 	background:url(img/fundo_cont.png);
 	margin:0 auto;
 	padding:0;
 	}
-#rodape{
+footer#rodape{
 	width:100%;
 	height:200px;
 	background:url(img/faixa_fundo_rodape.jpg);
 	}
-#texto_rodape{
+footer#rodape img{
 	margin-left:299px;
 	margin-top:75px;
 	}
