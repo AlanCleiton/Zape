@@ -7,7 +7,7 @@ body {
 	background:url(img/faixa_fundo_rept.png);
 	background-repeat:repeat-x;
 	}
-#div_topo{
+#topo{
 	height:180px;
 	width:100%;
 	background:url(img/faixa_topo.png);

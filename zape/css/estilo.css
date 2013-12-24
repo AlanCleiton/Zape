@@ -39,7 +39,7 @@ figure#iso img{
 nav#menu{
     height: 33px;
     margin: 0;
-    background-image: url("img/fundo_menu.png");
+    background-image: url(img/fundo_menu.png);
 }
 
 nav#menu ul{
