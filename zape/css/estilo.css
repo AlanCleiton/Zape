@@ -45,7 +45,7 @@ nav#menu{
 nav#menu ul{
 	list-style: none;
 	text-transform: uppercase;
-	margin-left: 650px;
+	margin-left: 627px;
 	height: 33px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -70,7 +70,7 @@ nav#menu a{
 	color:black;
 	}
 nav#menu a:hover{
-    color: blue;
+    color: white;
     -webkit-transition: color 1s;
     -moz-transition: color 1s;
     -ms-transition: color 1s;
@@ -93,10 +93,10 @@ section{
 	padding:0;
 	}
 #div_text{
-	width:300px;
-	height:225px;
+	width:275px;
+	height:270px;
 	margin:0;
-	font-size:14pt;
+	font-size:121%;
 	margin-left:30px;
 	font-family:calibri;
 	}
@@ -124,6 +124,6 @@ footer#rodape{
 	background:url(img/faixa_fundo_rodape.jpg);
 	}
 footer#rodape img{
-	margin-left:299px;
+	margin-left:335px;
 	margin-top:75px;
 	}
