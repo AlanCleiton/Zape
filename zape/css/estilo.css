@@ -33,8 +33,7 @@ figure#logo img#zape{
 figure#iso img{
 	float:right;
 	margin-right:30px;
-	margin-top:93px;
-	cursor:pointer;
+	margin-top:85px;
 	}
 nav#menu{
     height: 33px;
@@ -124,6 +123,10 @@ footer#rodape{
 	background:url(img/faixa_fundo_rodape.jpg);
 	}
 footer#rodape img{
+<<<<<<< HEAD
 	margin-left:335px;
+=======
+	margin-left:307px;
+>>>>>>> c5f88aff2bd8869258ae11acc5ca7cbd74f6cda2
 	margin-top:75px;
 	}
