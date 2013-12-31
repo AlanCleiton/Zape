@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 html{
 	margin:0;
 	padding:0;
@@ -28,21 +29,22 @@ figure#logo img#zape{
 	position:absolute;
 	top:55px;
 	left:420px;
-}
+	}
 figure#iso img{
 	float:right;
 	margin-right:30px;
 	margin-top:85px;
 	}
-nav{
+nav#menu{
     height: 33px;
     margin: 0;
-    background-image: url("img/fundo_menu.png");
+    background-image: url(img/fundo_menu.png);
 }
+
 nav#menu ul{
 	list-style: none;
 	text-transform: uppercase;
-	margin-left: 627px;
+	margin-left: 745px;
 	height: 33px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -67,7 +69,7 @@ nav#menu a{
 	color:black;
 	}
 nav#menu a:hover{
-    color: blue;
+    color: white;
     -webkit-transition: color 1s;
     -moz-transition: color 1s;
     -ms-transition: color 1s;
@@ -95,6 +97,27 @@ footer#rodape{
 	background:url(img/faixa_fundo_rodape.jpg);
 	}
 footer#rodape img{
-	margin-left:307px;
+	margin-left:282px;
 	margin-top:75px;
+	}
+div#endereco{
+	width:370px;
+	height:50px;
+	margin-left:285px;
+	float: left;
+	font-family:calibri, sans-serif;
+	font-size: 110%;
+	}
+div#fone{
+	margin-right:285px;
+	float: right;
+	width:119px;
+	height:50px;
+	font-family:calibri, sans-serif;
+	font-size: 110%;
+	}
+div#email{
+	margin:0;
+	font-family:calibri, sans-serif;
+	font-size: 110%;
 	}

@@ -44,7 +44,7 @@ nav#menu{
 nav#menu ul{
 	list-style: none;
 	text-transform: uppercase;
-	margin-left: 627px;
+	margin-left: 740px;
 	height: 33px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -92,15 +92,15 @@ section{
 	padding:0;
 	}
 #div_text{
-	width:275px;
-	height:270px;
+	width:310px;
+	height:280px;
 	margin:0;
-	font-size:121%;
 	margin-left:30px;
 	font-family:calibri;
 	}
 #div_text p{
 	text-align:justify;
+	font-size:117%;
 	margin:0;
 	padding:40px 0;
 	}
