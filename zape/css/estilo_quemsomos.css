@@ -124,40 +124,40 @@ nav#destaques ul{
 	margin-left:20px;
 	}
 nav#destaques ul li{
-	width: 235px;
+	width: 236px;
 	margin: 0;
 	}
 nav#destaques ul li a:hover{
 	color:#89211B;
 	margin: 0;
 	}
-#rodape{
+footer#rodape{
 	width:100%;
 	height:200px;
 	background:url(img/faixa_fundo_rodape.jpg);
 	}
-#texto_rodape{
-	margin-left:282px;
+footer#rodape img{
+	margin-left:335px;
 	margin-top:75px;
 	}
 div#endereco{
 	width:370px;
 	height:50px;
-	margin-left:285px;
+	margin-left:340px;
 	float: left;
 	font-family:calibri, sans-serif;
-	font-size: 110%;
+	font-size: 100%;
 	}
 div#fone{
-	margin-right:285px;
+	margin-right:323px;
 	float: right;
 	width:119px;
 	height:50px;
 	font-family:calibri, sans-serif;
-	font-size: 110%;
+	font-size: 100%;
 	}
 div#email{
 	margin:0;
 	font-family:calibri, sans-serif;
-	font-size: 110%;
+	font-size: 100%;
 	}
