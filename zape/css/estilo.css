@@ -57,7 +57,7 @@ nav#menu  a li{
     padding: 3px 7px 3px 7px;
     margin-lef: 7px;
     font-size: 11pt;
-    font-family: calibri;
+    font-family: calibri, sans-serif;
     border-radius: 10pt;
     -webkit-transition: background-color 1s;
     -moz-transition: background-color 1s;
@@ -124,5 +124,26 @@ footer#rodape{
 	}
 footer#rodape img{
 	margin-left:282px;
-	margin-top:75px;
+	margin-top:60px;
+	}
+div#endereco{
+	width:370px;
+	height:50px;
+	margin-left:285px;
+	float: left;
+	font-family:calibri, sans-serif;
+	font-size: 110%;
+	}
+div#fone{
+	margin-right:285px;
+	float: right;
+	width:119px;
+	height:50px;
+	font-family:calibri, sans-serif;
+	font-size: 110%;
+	}
+div#email{
+	margin:0;
+	font-family:calibri, sans-serif;
+	font-size: 110%;
 	}

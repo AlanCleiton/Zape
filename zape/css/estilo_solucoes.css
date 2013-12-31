@@ -100,3 +100,24 @@ footer#rodape img{
 	margin-left:282px;
 	margin-top:75px;
 	}
+div#endereco{
+	width:370px;
+	height:50px;
+	margin-left:285px;
+	float: left;
+	font-family:calibri, sans-serif;
+	font-size: 110%;
+	}
+div#fone{
+	margin-right:285px;
+	float: right;
+	width:119px;
+	height:50px;
+	font-family:calibri, sans-serif;
+	font-size: 110%;
+	}
+div#email{
+	margin:0;
+	font-family:calibri, sans-serif;
+	font-size: 110%;
+	}
