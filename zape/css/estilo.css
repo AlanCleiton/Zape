@@ -44,11 +44,7 @@ nav#menu{
 nav#menu ul{
 	list-style: none;
 	text-transform: uppercase;
-<<<<<<< HEAD
 	margin-left: 745px;
-=======
-	margin-left: 627px;
->>>>>>> e03a4b6eea7b2d44cb7d4d55f7336fb8b24ddc2b
 	height: 33px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -127,14 +123,6 @@ footer#rodape{
 	background:url(img/faixa_fundo_rodape.jpg);
 	}
 footer#rodape img{
-<<<<<<< HEAD
 	margin-left:290px;
-=======
-<<<<<<< HEAD
-	margin-left:335px;
-=======
-	margin-left:307px;
->>>>>>> c5f88aff2bd8869258ae11acc5ca7cbd74f6cda2
->>>>>>> e03a4b6eea7b2d44cb7d4d55f7336fb8b24ddc2b
 	margin-top:75px;
 	}
