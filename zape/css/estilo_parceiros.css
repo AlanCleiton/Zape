@@ -44,7 +44,7 @@ nav#menu{
 nav#menu ul{
 	list-style: none;
 	text-transform: uppercase;
-	margin-left: 650px;
+	margin-left: 745px;
 	height: 33px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -69,7 +69,7 @@ nav#menu a{
 	color:black;
 	}
 nav#menu a:hover{
-    color: blue;
+    color: white;
     -webkit-transition: color 1s;
     -moz-transition: color 1s;
     -ms-transition: color 1s;
@@ -97,6 +97,6 @@ footer#rodape{
 	background:url(img/faixa_fundo_rodape.jpg);
 	}
 footer#rodape img{
-	margin-left:307px;
+	margin-left:290px;
 	margin-top:75px;
 	}
