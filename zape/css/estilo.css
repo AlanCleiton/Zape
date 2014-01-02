@@ -172,8 +172,8 @@ footer#rodape{
 	background:url(img/faixa_fundo_rodape.jpg);
 	}
 footer#rodape img{
-	margin-left:282px;
 	margin-top:75px;
+	padding-bottom:5px;
 	}
 div#container_rodape{
 	width:700px;

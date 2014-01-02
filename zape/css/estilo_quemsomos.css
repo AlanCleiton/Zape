@@ -187,21 +187,24 @@ footer#rodape{
 	background:url(img/faixa_fundo_rodape.jpg);
 	}
 footer#rodape img{
-	margin-left:335px;
 	margin-top:75px;
+	padding-bottom:5px;
 	}
+div#container_rodape{
+	width:700px;
+	height:50px;
+	margin:0 auto;
+}
 div#endereco{
 	width:370px;
 	height:50px;
-	margin-left:340px;
 	float: left;
 	font-family:calibri, sans-serif;
 	font-size: 100%;
 	}
 div#fone{
-	margin-right:323px;
 	float: right;
-	width:124px;
+	width:119px;
 	height:50px;
 	font-family:calibri, sans-serif;
 	font-size: 100%;
