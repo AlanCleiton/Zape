@@ -87,16 +87,18 @@ nav#menu{
     margin: 0;
     background-image: url(img/fundo_menu.png);
 }
-
+div#container_menu{
+	width:715px;
+	margin:0 auto;
+	height: 33px;
+}
 nav#menu ul{
+	float:right;
 	list-style: none;
 	text-transform: uppercase;
-	margin-left: 740px;
 	height: 33px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding: 0px;
-}	
+	padding:0;
+	}	
 nav#menu  a li{
 	  display: inline-block;
     list-style: none;

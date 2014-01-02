@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,39 +15,35 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-}
+	}
 body {
     line-height: 1;
-}
+	}
 ol, ul {
     list-style: none;
-}
+	}
 blockquote, q {
     quotes: none;
-}
+	}
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
-}
- 
+	}
 :focus {
     outline: 0;
-}
- 
+	}
 ins {
     text-decoration: none;
-}
+	}
 del {
     text-decoration: line-through;
-}
+	}
  
 table {
     border-collapse: collapse;
     border-spacing: 0;
-}
-
-
+	}
 
 html{
 	margin:0;
@@ -66,7 +61,7 @@ header#topo{
 	}
 figure{
 	margin:0;
-}
+	}
 figure#logo img#P{
 	margin:0;
 	position:absolute;
@@ -88,19 +83,21 @@ nav#menu{
     height: 33px;
     margin: 0;
     background-image: url(img/fundo_menu.png);
+	}
+div#container_menu{
+	width:715px;
+	margin:0 auto;
+	height: 33px;
 }
-
 nav#menu ul{
+	float:right;
 	list-style: none;
 	text-transform: uppercase;
-	margin-left: 740px;
 	height: 33px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding: 0px;
-}	
+	padding:0;
+	}	
 nav#menu  a li{
-	  display: inline-block;
+	display: inline-block;
     list-style: none;
     margin-top: 9px;
     padding: 3px 7px 3px 7px;
@@ -113,7 +110,7 @@ nav#menu  a li{
     -ms-transition: background-color 1s:
     -o-transition: background-color 1s;
     transition: background-color 1s;
-}
+	}
 nav#menu a{
 	color:black;
 	}
@@ -124,11 +121,9 @@ nav#menu a:hover{
     -ms-transition: color 1s;
     -o-transition: color 1s;
     transition: color 1s;
-
-}
+	}
 nav#menu li:hover{
 	background:silver;
-	
 	}
 nav#menu li:active{
 	background:#90D2DA;
@@ -160,7 +155,6 @@ section{
 	float:right;
 	background-repeat:no-repeat;
 	}
-
 #saiba_mais{
 	width:55px;
 	height:25px;
@@ -179,7 +173,7 @@ div#container_rodape{
 	width:700px;
 	height:50px;
 	margin:0 auto;
-}
+	}
 div#endereco{
 	width:370px;
 	height:50px;
