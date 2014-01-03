@@ -58,10 +58,10 @@ body {
 	background:url(img/faixa_fundo_rept.png);
 	background-repeat:repeat-x;
 	}
-#topo{
+header#topo{
 	height:180px;
 	width:100%;
-	background:url(img/faixa_topo.png);
+	background:#DEDEDC;
 	}
 figure{
 	margin:0;
@@ -186,7 +186,7 @@ nav#destaques ul li a:hover{
 footer#rodape{
 	width:100%;
 	height:200px;
-	background:url(img/faixa_fundo_rodape.jpg);
+	background:#C1C1C1;
 	}
 footer#rodape img{
 	margin-top:75px;
