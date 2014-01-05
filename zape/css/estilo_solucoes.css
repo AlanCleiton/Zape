@@ -56,6 +56,7 @@ body{
 	margin:0;
 	background:url(img/faixa_fundo_rept.png);
 	background-repeat:repeat-x;
+	font-family:  sans-serif;
 	}
 																/*Topo*/
 header#topo{
@@ -142,6 +143,12 @@ section{
 	margin:0 auto;
 	padding:0;
 	}
+section div#texto{
+	margin-left: 40px;
+	padding-top: 45px;
+
+
+}	
 																/*Rodape*/
 footer#rodape{
 	width:100%;

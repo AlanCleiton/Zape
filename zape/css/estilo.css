@@ -106,7 +106,7 @@ nav#menu  a li{
     padding: 3px 7px 3px 7px;
     margin-lef: 7px;
     font-size: 11pt;
-    font-family: calibri;
+    font-family: Arial,sans-serif;
     border-radius: 10pt;
     -webkit-transition: background-color 1s;
     -moz-transition: background-color 1s;
@@ -143,14 +143,16 @@ section{
 	width:310px;
 	height:280px;
 	margin:0;
-	margin-left:30px;
-	font-family:calibri;
+	margin-left:40px;
 	}
 #div_text p{
-	text-align:justify;
-	font-size:117%;
+	text-align:left;
+	font-size:12pt;
 	margin:0;
 	padding:40px 0;
+	font-family:Arial,sans-serif;
+	line-height: 23px;
+	font-style: italic;
 	}
 #div_img{
 	width:345px;
