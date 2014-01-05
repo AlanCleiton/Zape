@@ -51,11 +51,14 @@ table {
 html {
 	margin:0;
 	padding:0;
+	font-family:Arial, sans-serif;
+
 	}
 body {
 	margin:0;
 	background:url(img/faixa_fundo_rept.png);
 	background-repeat:repeat-x;
+	font-family:Arial, sans-serif;
 	}
 																/*Topo*/
 header#topo{
@@ -102,13 +105,13 @@ nav#menu ul{
 	padding:0;
 	}	
 nav#menu  a li{
-	  display: inline-block;
+	display: inline-block;
     list-style: none;
     margin-top: 9px;
     padding: 3px 7px 3px 7px;
     margin-left: 7px;
     font-size: 11pt;
-    font-family: calibri;
+    font-family: Arial,sans-serif;
     border-radius: 10pt;
     -webkit-transition: background-color 1s;
     -moz-transition: background-color 1s;
@@ -137,54 +140,6 @@ nav#menu li:active{
 	background:#90D2DA;
 	}
 																/*Conteudo Principal*/
-section{
-	height:600px;
-	width:700px;
-	background:white;
-	margin:0 auto;
-	padding:0;
-	}
-#div_text{
-	width:490px;
-	height:225px;
-	margin:0;
-	font-size:14pt;
-	margin-left:30px;
-	font-family:calibri;
-	}
-#div_text p{
-	text-align:left;
-	margin:0;
-	padding:40px 0;
-	}
-#div_img{
-	width:175px;
-	height:350px;
-	background:url(img/img_semiautomatica.png);
-	float:right;
-	background-repeat:no-repeat;
-	}
-a {
-	text-decoration: none;
-	color:black;
-}
-nav#destaques{
-	width:270px;
-	height:auto;
-}
-nav#destaques ul{
-	list-style: circle;
-	padding:0;
-	margin-left:20px;
-	}
-nav#destaques ul li{
-	width: 290px;
-	margin: 0;
-	}
-nav#destaques ul li a:hover{
-	color:#89211B;
-	margin: 0;
-	}
 div#cnc{
 	width:282px;
 	height:600px;
@@ -195,7 +150,79 @@ div#semi{
 	height:600px;
 	float:right;
 }
+section{
+	height:700px;
+	width:700px;
+	background:white;
+	margin:0 auto;
+	padding:0;
+	}
+section div#text{
+	width:490px;
+	height:225px;
+	margin:0;
+	font-size:14pt;
+	margin-left:30px;
+	font-family:calibri;
+	font-size: 12pt;
+	font-family:Arial, sans-serif;
+
+	}
+section div#text p{
+	text-align:left;
+	margin:0;
+	padding:40px 0;
+	font-family:Arial, sans-serif;
+	line-height: 22px;
+	}
+section div#img{
+	width:175px;
+	height:350px;
+	background:url(img/img_semiautomatica.png);
+	float:right;
+	background-repeat:no-repeat;
+	}
+a {
+	text-decoration: none;
+	color:black;
+}
+section #destaques-direita{
+	width:294px;
+	height:auto;
+	margin-left: 325px;
+	font-size: 12pt;
+}
+section #destaques-direita ul{
+	list-style: disc ;
+	padding:0;
+	margin-left:20px;
+	}
+section #destaques-direita ul li{
+	width: 290px;
+	margin: 0;
+	line-height: 22px;
+	}
+section #destaques-esquerda{
+	width:270px;
+	height:auto;
+	float: left;
+	font-size: 12pt;
+
+}
+section #destaques-esquerda ul{
+	list-style: disc;
+	padding:0;
+	margin-left:20px;
+	}
 																/*Rodape*/
+section #destaques-esquerda ul li{
+	width: 290px;
+	margin: 0;
+	line-height: 22px;
+	}					
+section #p{
+	width: 628px;
+	}
 footer#rodape{
 	width:100%;
 	height:200px;
