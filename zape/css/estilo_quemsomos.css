@@ -106,7 +106,7 @@ nav#menu  a li{
     list-style: none;
     margin-top: 9px;
     padding: 3px 7px 3px 7px;
-    margin-lef: 7px;
+    margin-left: 7px;
     font-size: 11pt;
     font-family: calibri;
     border-radius: 10pt;
@@ -185,6 +185,16 @@ nav#destaques ul li a:hover{
 	color:#89211B;
 	margin: 0;
 	}
+div#cnc{
+	width:282px;
+	height:600px;
+	float:left;
+}
+div#semi{
+	width:282px;
+	height:600px;
+	float:right;
+}
 																/*Rodape*/
 footer#rodape{
 	width:100%;
