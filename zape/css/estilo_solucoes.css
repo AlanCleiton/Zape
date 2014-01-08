@@ -107,8 +107,8 @@ nav#menu  a li{
     margin-top: 9px;
     padding: 3px 7px 3px 7px;
     margin-left: 7px;
-    font-size: 11pt;
-    font-family: calibri;
+    font-size: 10pt;
+    font-family: arial, sans-serif;
     border-radius: 10pt;
     -webkit-transition: background-color 1s;
     -moz-transition: background-color 1s;
@@ -135,7 +135,7 @@ nav#menu li:active{
 	}
 																/*Conteudo Principal*/
 section{
-	height:500px;
+	height:700px;
 	width:700px;
 	background:white;
 	margin:0 auto;
@@ -164,18 +164,28 @@ div#text{
 	margin-left:30px;
 	line-height:22px;
 	}
+section div#descricao{
+	width:700px;
+	height:400px;
+	margin:0 auto;
+	background:url(img/fundo_branco.jpg) repeat-x;
+	-webkit-transition:background 1s;
+	-moz-transition:background 1s;
+	-ms-transition:background 1s;
+	transition:background 1s;
+	}
 ul#solucoes{
 	font-family:calibre, sans-serif;
 	list-style:url(img/img_lista.png);
-	margin-left:45px;
+	margin-left:44px;
 	}
 section ul#solucoes li{
 	width:270px;
 	height:30px;
 	font-weight:bold;
-	line-height:22px;
+	line-height:25px;
 	}
-section ul#solucoes li#li_comprida{
+section ul#solucoes li#li1{
 	height:50px;
 	}
 ul#solucoes a{
@@ -185,9 +195,7 @@ ul#solucoes a{
 section div#texto{
 	margin-left: 40px;
 	padding-top: 45px;
-
-
-}	
+	}	
 																/*Rodape*/
 footer#rodape{
 	width:100%;
