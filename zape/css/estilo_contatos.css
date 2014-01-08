@@ -137,12 +137,44 @@ nav#menu li:active{
 	}
 																/*Conteudo Principal*/
 section{
-	height:500px;
+	height:600px;
 	width:700px;
 	background:white;
 	margin:0 auto;
 	padding:0;
 	}
+div#contato{
+	position: relative;
+	width:215px;
+	height:30px;
+	background:#3DB2C3;
+	top:40px;
+	border-radius:0 10 10 0;
+	font-family:arial, sans-serif;
+	padding-left:85px;
+	padding-top:15px;
+	color:white;
+	font-weight:bold;
+	}
+div#endereco figure img#logo-zape{	
+	height: 209px;
+	width: 204px;
+	margin-right: 50px;
+	float: right;
+}	
+section div#endereco{
+	height:271px;
+	width: 674px;
+	margin-top: 250px;
+}	
+section div#endereco p{
+	text-align: right;
+	line-height: 30px;
+	font-family: Arial,sans-serif;
+	font-style: italic;
+	margin-right: 275px;
+	margin-top: 14px;
+}
 																/*Rodape*/
 footer#rodape{
 	width:100%;
@@ -150,7 +182,7 @@ footer#rodape{
 	background:#C1C1C1;
 	}
 footer#rodape img{
-	margin-top:75px;
+	margin-top:51px;
 	padding-bottom:5px;
 	}
 div#container_rodape{

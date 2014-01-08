@@ -135,7 +135,7 @@ nav#menu li:active{
 	}
 																/*Conteudo Principal*/
 section{
-	height:700px;
+	height:600px;
 	width:700px;
 	background:white;
 	margin:0 auto;
@@ -175,7 +175,7 @@ section div#descricao{
 	transition:background 1s;
 	}
 ul#solucoes{
-	font-family:calibre, sans-serif;
+	font-family:arial, sans-serif;
 	list-style:url(img/img_lista.png);
 	margin-left:44px;
 	}
@@ -184,6 +184,9 @@ section ul#solucoes li{
 	height:30px;
 	font-weight:bold;
 	line-height:25px;
+	cursor: pointer;
+	font-style: italic;
+
 	}
 section ul#solucoes li#li1{
 	height:50px;
@@ -203,7 +206,7 @@ footer#rodape{
 	background:#C1C1C1;
 	}
 footer#rodape img{
-	margin-top:75px;
+	margin-top:50px;
 	padding-bottom:5px;
 	}
 div#container_rodape{
