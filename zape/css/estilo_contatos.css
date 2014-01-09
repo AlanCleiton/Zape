@@ -59,41 +59,45 @@ body{
 	}
 																/*Topo*/
 header#topo{
-	height:180px;
+	margin:0;
+	height:213px;
 	width:100%;
-	background:url(img/fundo_topo.png);
+	background:url(img/fundo_topo2.jpg);
 	}
+header#topo section#content_topo{
+	height: 213px;
+	width: 900px;
+	margin: 0 auto;
+	background-color: transparent;
+}	
+img#p{
+	padding-top:5px ;
+	margin: 0;
+}
+
+img#z{
+	margin: 0;
+	position: relative;
+	top:-40px;
+	left: 25px;
+}
 figure{
 	margin:0;
-}
-figure#logo img#P{
-	margin:0;
-	position:absolute;
-	top:7px;
-	left:172px;
-	}
-figure#logo img#zape{
-	margin:0;
-	position:absolute;
-	top:55px;
-	left:420px;
 	}
 figure#iso img{
 	float:right;
-	margin-right:0px;
-	margin-top:100px;
+	position: absolute;
+	right:0px;
+	top:100px;
 	}
-																/*Menu Principal*/
 nav#menu{
-    height: 33px;
-    margin: 0;
-    background-image: url(img/fundo_menu.png);
-}
-div#container_menu{
-	width:715px;
-	margin:0 auto;
 	height: 33px;
-}
+	width: 358px;
+	position: relative;
+	float: right;
+	top: 180px;
+	right: 95px;
+}	
 nav#menu ul{
 	float:right;
 	list-style: none;
@@ -137,12 +141,44 @@ nav#menu li:active{
 	}
 																/*Conteudo Principal*/
 section{
-	height:500px;
+	height:600px;
 	width:700px;
 	background:white;
 	margin:0 auto;
 	padding:0;
 	}
+div#contato{
+	position: relative;
+	width:215px;
+	height:30px;
+	background:#3DB2C3;
+	top:40px;
+	border-radius:0 10 10 0;
+	font-family:arial, sans-serif;
+	padding-left:85px;
+	padding-top:15px;
+	color:white;
+	font-weight:bold;
+	}
+div#endereco figure img#logo-zape{	
+	height: 209px;
+	width: 204px;
+	margin-right: 50px;
+	float: right;
+}	
+section div#endereco{
+	height:271px;
+	width: 674px;
+	margin-top: 250px;
+}	
+section div#endereco p{
+	text-align: right;
+	line-height: 30px;
+	font-family: Arial,sans-serif;
+	font-style: italic;
+	margin-right: 275px;
+	margin-top: 14px;
+}
 																/*Rodape*/
 footer#rodape{
 	width:100%;
@@ -150,7 +186,7 @@ footer#rodape{
 	background:#C1C1C1;
 	}
 footer#rodape img{
-	margin-top:75px;
+	margin-top:51px;
 	padding-bottom:5px;
 	}
 div#container_rodape{
