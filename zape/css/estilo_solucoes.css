@@ -55,7 +55,7 @@ html{
 body{
 	margin:0;
 	background:url(img/faixa_fundo_rept.png);
-	background-repeat:repeat-x;
+	background-repeat:no-repeat;
 	font-family:  sans-serif;
 	}
 																/*Topo*/
